@@ -9,27 +9,27 @@
 a{
     text-decoration: none;
     color: antiquewhite;
-    font-size: small;
+    font-size: 0.9em;
 	margin-right: 20px;
 }
 
 .linkblue{
     color: cadetblue;
-    font-size: medium;
+    font-size: 1em;
     text-decoration: underline;	
 }
 
 .link{
     text-decoration: underline;
     font-style: italic;	
-	font-size: medium;
+	font-size: 1em;
 	margin-right: auto;
 }
 
 .address{
 	line-height: 1.2;
 	margin: auto;
-	font-size: xx-small;
+	font-size: 0.9em;
 }
 
 .blue-cells{
@@ -47,7 +47,6 @@ body{
 }
 
 .card{
-    padding: 10px;
     margin: 8vh;
 }
 
@@ -65,14 +64,6 @@ body{
 	height: 100%;
 }
 
-.flex-center{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	column-gap: 5px;
-	height: 100%;
-	margin-left: 50px;
-}
 
 .footer{
     background-color: black;
@@ -84,30 +75,30 @@ body{
     display: grid;
 	justify-content: center;
 	align-items: center;
-	width: 90%;
+	width:inherit;
+	padding: 0 2em;
 }
 
 h1{
-    font-size: xx-large;
+    font-size: 2.2em;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 0.5em;
 /*    letter-spacing: 0.1rem;*/
 	color:burlywood;
 	font-weight: bold;
 }
 
 h2{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     text-align: center;
-    font-size: large;
-/*    letter-spacing: 0.05rem;*/
+    font-size: 1.2em;
     font-weight: lighter;
 }
 
 h3{
 	text-align: center;
-	font-size: xx-large;
+	font-size: 2em;
 	font-weight: lighter;
 	width: 100%;
 }
@@ -119,7 +110,7 @@ h3{
 .hero{
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    margin-top: 55vh;
+    margin-top: 45vh;
 	padding-bottom: 0px;
     background-color: rgba(0,0,0,0.40);
     font-size: 2.5em;
@@ -132,7 +123,7 @@ h3{
     background-position: center center;
     background-size: contain;
     background-color: rgba(0,0,0,1.00);
-    height: 100vh;
+    height: 95vh;
 }
 
 .index-two{
@@ -145,14 +136,14 @@ h3{
 .index-two ul{
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 180px;
+	margin-bottom: 10em;
 }
 
 .index-two ul a{
 	background-color: rgba(0,0,0,0.6);	
 	text-transform: uppercase;
-	padding: 1vh 2vw;
-	border-radius: 10px;
+	padding: 2.5vh 4vw;
+	border-radius: 1em;
 	border: 1px antiquewhite solid
 }
 
@@ -161,22 +152,16 @@ h3{
 }
 
 .indexcard{
-	padding: 40px;
+	padding: 3em;
 	margin: 15vh;
     background-color: rgba(0,0,0,0.50);
-    border-radius: 20px;
+    border-radius: 1em;
 }
 
 .inset{
-/*    color:darkgray;*/
-	margin-top: -10px;
-	margin-left: 120px;
+	margin-top: -0.5em;
+	margin-left: 7em;
     font-style: italic;
-}
-
-.last{
-	padding-bottom: 20px;
-	margin-bottom: 20px;
 }
 
 .lefthead{
@@ -185,10 +170,6 @@ h3{
 
 .leftpad{
 	padding-left: 10px;
-}
-
-ul li a{
-	font-size: medium;
 }
 
 .logo{
@@ -221,8 +202,8 @@ p{
 }
 
 .peoplecard{
-	padding: 30px 40px 40px 40px;
-	margin: 20vh 100px;
+	padding: 3em 3em 4em 3em;
+	margin: 10vh 10vw;
     background-color: rgba(0,0,0,0.80);
     border-radius: 20px;
 	text-indent: 30px;
@@ -239,9 +220,6 @@ p{
 	height: 100%;
 }
 
-.title{
-    color: antiquewhite;
-}
 
 .pmid{
     color: cadetblue;
@@ -281,15 +259,18 @@ p{
 }
 
 .research-card{
-	padding: 40px;
-    margin: 20vh 100px;
+	padding: 4em;
+    margin: 20vh 10vw;
     background-color: rgba(0,0,0,0.80);
-    border-radius: 20px;
+    border-radius: 2em;
 }
-
 
 .start{
 	padding-top: 40px;
+}
+
+.title{
+    color: antiquewhite;
 }
 
 ul{
@@ -297,8 +278,13 @@ ul{
 	display: flex;
 }
 
+ul li a{
+	font-size: 1em;
+/*	color: burlywood;*/
+}
+
 .warhol-embryo{
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: 100vw;
     background-image: url(images/LUT-embryos_background.jpg);
@@ -325,4 +311,93 @@ ul{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+}
+
+
+
+@media (max-width:600px){
+	
+a{
+    text-decoration: none;
+    font-size: small;
+}
+
+h1{
+	font-size: 1.5em;
+	}
+	
+h2 {
+	font-size: 1em;
+}
+	
+.container{
+	max-width: 590px;
+	padding: 0 2vw;
+	}
+	
+.indexcard{
+	padding: 1em;
+	margin: 5vh;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 1em;
+	}
+	
+.navbar .container.flex {
+	background-color: rgba(25,25,25,1);
+    height: 100px;
+    position: sticky;
+    top: 0;
+	
+/*	max-width: 500px;*/
+	
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	width: inherit;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+}
+	
+.footer .container.flex {
+	background-color: rgba(25,25,25,1);
+    color: antiquewhite;
+    height: 140px;
+	
+/*	max-width: 95vw;*/
+	padding-bottom: 2vh;
+	margin-top: 2vh;
+	
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	width: inherit;
+	}
+	
+.research-card {
+	padding: 2em;
+    margin: 10vh 10vw;
+    background-color: rgba(0,0,0,0.80);
+    border-radius: 2em;
+}
+.leftpad a img {
+	padding-left: 5vw;
+	padding-right: -2vw;
+	margin-top: 0.5em;
+}
+	
+.container.grid div ul{
+	list-style-type: none;
+	display: grid;
+}
+
+ul li a {
+    color: burlywood
+}
+.container.grid div ul li a {
+	list-style-type: none;
+    display: grid;
+    margin: 0.5em;
+    text-align: center;	
+}
+	
 }
