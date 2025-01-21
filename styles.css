@@ -13,18 +13,6 @@ a{
 	margin-right: 20px;
 }
 
-.linkblue{
-    color: cadetblue;
-    font-size: 1em;
-    text-decoration: underline;	
-}
-
-.link{
-    text-decoration: underline;
-    font-style: italic;	
-	font-size: 1em;
-	margin-right: auto;
-}
 
 .address{
 	line-height: 1.2;
@@ -38,6 +26,8 @@ a{
     background-size: cover;
     background-image: url(images/blue-green_cells.png);
 }
+
+
 
 body{
     font-family: 'Open Sans';
@@ -56,6 +46,7 @@ body{
 	overflow: auto;
 	padding: 0 10px;
 }
+
 
 .flex{
 	display: flex;
@@ -76,7 +67,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	width:inherit;
-	padding: 0 2em;
+/*	padding: 0 2em;*/
 }
 
 h1{
@@ -172,6 +163,26 @@ h3{
 	padding-left: 2em;
 }
 
+
+.linkblue{
+    color: cadetblue;
+    font-size: 1em;
+    text-decoration: underline;	
+}
+
+.link{
+    text-decoration: underline;
+    font-style: italic;	
+	font-size: 1em;
+	margin-right: auto;
+}
+
+.linkunder{
+    text-decoration: underline;
+	font-size: 1em;
+	margin-right: auto;
+}
+
 .logo{
 	font-weight: 100;
     line-height: 1.2;
@@ -202,7 +213,7 @@ p{
 }
 
 .peoplecard{
-	padding: 3em 3em 4em 3em;
+	padding: 3em 3em 3em 3em;
 	margin: 10vh 10vw;
     background-color: rgba(0,0,0,0.80);
     border-radius: 20px;
@@ -286,7 +297,8 @@ ul li a{
 .warhol-embryo{
     background-repeat: repeat;
     background-position: center;
-    background-size: 100vw;
+	height: 80vh;
+    background-size: 90vw;
     background-image: url(images/LUT-embryos_background.jpg);
 }
 
@@ -359,7 +371,7 @@ h2 {
 }
 	
 .footer .container.flex {
-	background-color: rgba(10,15,20,1);
+/*	background-color: rgba(10,15,20,1);*/
     color: antiquewhite;
     height: 140px;
 
