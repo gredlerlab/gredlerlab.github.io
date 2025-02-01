@@ -297,7 +297,7 @@ ul li a{
 .warhol-embryo{
     background-repeat: repeat;
     background-position: center;
-    background-size: 90vw;
+    background-size: cover;
     background-image: url(images/LUT-embryos_background.jpg);
 }
 
